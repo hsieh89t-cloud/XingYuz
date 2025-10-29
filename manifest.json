@@ -2,20 +2,20 @@
   "name": "iPhone Notes PWA",
   "short_name": "備忘錄",
   "description": "iPhone 風格的電子記事本 PWA",
-  "start_url": "/",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#007AFF",
   "orientation": "portrait",
   "icons": [
     {
-      "src": "/icon-192.png",
+      "src": "./icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/icon-512.png",
+      "src": "./icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
@@ -27,8 +27,8 @@
       "name": "新增筆記",
       "short_name": "新筆記",
       "description": "快速建立新筆記",
-      "url": "/notes/new",
-      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+      "url": "./notes/new",
+      "icons": [{ "src": "./icon-192.png", "sizes": "192x192" }]
     }
   ]
 }
